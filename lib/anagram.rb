@@ -1,3 +1,4 @@
+require "pry"
 class Anagram
   attr_accessor :word
   @word
@@ -7,7 +8,11 @@ class Anagram
   end
 
   def match(anagram)
-
+    anagram.each do |ana| #=> ana spits out each value in [anagram]
+      a = word.split #=> splits the initialized "word"
+      b = ana.split #=> splits ana
+      binding.pry
+    end
   end
-  
+
 end
