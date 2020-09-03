@@ -13,7 +13,7 @@ class Anagram
     anagram.each do |ana| #=> ana spits out each value in [anagram]
       b = ana.split("") #=> splits ana
       b = b.sort
-      binding.pry
+      #binding.pry
     end
   end
 
