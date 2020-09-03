@@ -19,6 +19,7 @@ class Anagram
       end
       #binding.pry
     end
+    result
   end
 
 end
